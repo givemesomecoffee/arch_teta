@@ -50,10 +50,18 @@ dependencies {
     implementation(project(":core:commonapi"))
     implementation(project(":core:networkimpl"))
     implementation(project(":core:networkapi"))
+
+
+    //feature
     implementation(project(":feature:afeatureimpl"))
     implementation(project(":feature:bfeatureimpl"))
     implementation(project(":feature:cfeatureimpl"))
 
+    //data
+    implementation(project(":feature:test_repository_impl"))
+    implementation(project(":feature:test_repository_api"))
 
-    //feature
+    //domain
+    implementation(project(":feature:test_interactor_impl"))
+    implementation(project(":feature:test_interactor_api"))
 }

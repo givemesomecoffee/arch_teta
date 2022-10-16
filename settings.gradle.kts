@@ -14,3 +14,7 @@ include (":core:networkapi")
 
 include (":app")
 rootProject.name = "MyApp"
+include(":feature:test_repository_api")
+include(":feature:test_repository_impl")
+include(":feature:test_interactor_api")
+include(":feature:test_interactor_impl")

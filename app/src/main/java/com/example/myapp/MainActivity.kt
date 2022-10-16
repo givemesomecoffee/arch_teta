@@ -1,10 +1,12 @@
 package com.example.myapp
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 
 import com.example.a_feature_impl.AFeatureFragment
+import com.example.b_feature_impl.BFeatureFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,11 +17,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(findViewById(R.id.toolbar))
 
-        currentFragment = AFeatureFragment.getInstance()
+        Log.d("custom", "test")
+        currentFragment = BFeatureFragment.newInstance()
         supportFragmentManager
             .beginTransaction()
             .add(R.id.frameLayout, currentFragment!!, "LOGIN_TAG")
-            .commit();
+            .commit()
     }
 
   /*  override fun onStart() {
