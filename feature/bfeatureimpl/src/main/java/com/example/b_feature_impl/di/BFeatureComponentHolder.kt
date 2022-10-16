@@ -4,6 +4,7 @@ import com.example.modulinjection.BaseFeatureAPI
 import com.example.modulinjection.BaseFeatureDependencies
 import com.example.modulinjection.ComponentHolder
 import com.example.modulinjection.ComponentHolderDelegate
+import givemesomecoffee.ru.test_interactor_api1.api.TestInteractorApi
 
 object BFeatureComponentHolder :
     ComponentHolder<BFeatureApi, BFeatureDependencies> {
@@ -21,6 +22,8 @@ object BFeatureComponentHolder :
 }
 // то что инициализируется в холдере
 interface BFeatureDependencies : BaseFeatureDependencies {
+    val testInteractor: TestInteractorApi
+
 }
 //то что инициализируется в модуле или древе модулей
 interface BFeatureApi : BaseFeatureAPI {

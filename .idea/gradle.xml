@@ -7,6 +7,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="Embedded JDK" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -26,6 +27,10 @@
             <option value="$PROJECT_DIR$/feature/bfeatureimpl" />
             <option value="$PROJECT_DIR$/feature/cfeatureapi" />
             <option value="$PROJECT_DIR$/feature/cfeatureimpl" />
+            <option value="$PROJECT_DIR$/feature/test_interactor_api1" />
+            <option value="$PROJECT_DIR$/feature/test_interactor_impl" />
+            <option value="$PROJECT_DIR$/feature/test_repository_api1" />
+            <option value="$PROJECT_DIR$/feature/test_repository_impl" />
           </set>
         </option>
       </GradleProjectSettings>
