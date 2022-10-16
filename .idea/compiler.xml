@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="MyApp.app" target="11" />
+      <module name="MyApp.core.commonapi" target="11" />
+      <module name="MyApp.core.commonimpl" target="11" />
+      <module name="MyApp.core.database" target="11" />
+      <module name="MyApp.core.modulinjection" target="11" />
+      <module name="MyApp.core.networkapi" target="11" />
+      <module name="MyApp.core.networkimpl" target="11" />
+      <module name="MyApp.feature.afeatureapi" target="11" />
+      <module name="MyApp.feature.afeatureimpl" target="11" />
+      <module name="MyApp.feature.bfeatureapi" target="11" />
+      <module name="MyApp.feature.bfeatureimpl" target="11" />
+      <module name="MyApp.feature.cfeatureapi" target="11" />
+      <module name="MyApp.feature.cfeatureimpl" target="11" />
+      <module name="MyApp.feature.test_interactor_api" target="11" />
+      <module name="MyApp.feature.test_interactor_impl" target="11" />
+      <module name="MyApp.feature.test_repository_api" target="11" />
+      <module name="MyApp.feature.test_repository_impl" target="11" />
+      <module name="MyApp.mylibrary" target="11" />
+      <module name="NewMvvmArch.buildSrc" target="11" />
+      <module name="NewMvvmArch.buildSrc.main" target="11" />
+      <module name="NewMvvmArch.buildSrc.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
