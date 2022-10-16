@@ -24,7 +24,7 @@ object DependencyHandler {
         bFeatureInjection()
         cFeatureInjection()
 
-        TestRepositoryFeatureInjector.TestRepositoryFeatureInjection()
+        TestRepositoryFeatureInjector.testRepositoryFeatureInjection()
         TestInteractorInjector.testInteractorFeatureInjection()
     }
 }

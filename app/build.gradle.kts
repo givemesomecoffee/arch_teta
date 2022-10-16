@@ -59,9 +59,9 @@ dependencies {
 
     //data
     implementation(project(":feature:test_repository_impl"))
-    implementation(project(":feature:test_repository_api"))
+    implementation(project(":feature:test_repository_api1"))
 
     //domain
     implementation(project(":feature:test_interactor_impl"))
-    implementation(project(":feature:test_interactor_api"))
+    implementation(project(":feature:test_interactor_api1"))
 }

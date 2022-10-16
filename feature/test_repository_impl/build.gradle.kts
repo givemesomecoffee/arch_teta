@@ -4,16 +4,20 @@ plugins {
     kotlin("kapt")
 }
 
-android{
-    compileSdkVersion(rootProject.extra["compileSdkVersion"] as Int)
-    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> { kotlinOptions.jvmTarget = "1.8" }//need to use viewModel
+android {
+    compileSdk = rootProject.extra["compileSdkVersion"] as Int
+    defaultConfig {
+        minSdk = rootProject.extra["minSdkVersion"] as Int
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
 }
 
 initLibDependencies()
 dependencies {
-    implementation(project(":feature:test_repository_api"))
+    implementation(project(":feature:test_repository_api1"))
     implementation(project(":core:networkapi"))
     implementation(project(":core:commonapi"))
     implementation(project(":core:modulinjection"))
+
 }
 

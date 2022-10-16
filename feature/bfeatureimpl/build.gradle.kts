@@ -14,8 +14,6 @@ dependencies {
     implementation(project(":core:modulinjection"))
     implementation(project(":core:commonapi"))
     implementation(project(":feature:bfeatureapi"))
-
-    implementation(project(":feature:test_interactor_api"))
-
+    implementation(project(":feature:test_interactor_api1"))
 }
 

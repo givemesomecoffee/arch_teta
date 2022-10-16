@@ -12,10 +12,4 @@ class TestRepositoryFeatureModuleProvide {
     @Provides
     fun provideFeedApi(retrofit: RetrofitProvider) = retrofit.retrofit.create(
         TestRepositoryFeatureRest::class.java)
-
-
-
-//    @Singleton
-//    @Provides
-//    fun provideMainInteractor(rest: TesRepositoryFeatureRest) = TesRepositoryFeatureInteractor(rest)
 }

@@ -7,8 +7,8 @@ import androidx.lifecycle.viewModelScope
 import com.example.common_api.lce.LceViewState
 import com.example.common_api.lce.lce
 import com.example.common_api.lce.reduce
-import givemesomecoffee.ru.test_interactor_api.api.TestInteractorApi
-import givemesomecoffee.ru.test_interactor_api.model.TestInteractorDto
+import givemesomecoffee.ru.test_interactor_api1.api.TestInteractorApi
+import givemesomecoffee.ru.test_interactor_api1.model.TestInteractorDto
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import javax.inject.Inject

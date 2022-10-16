@@ -13,7 +13,7 @@ import com.example.b_feature_impl.di.BFeatureComponent
 import com.example.b_feature_impl.di.BFeatureComponentHolder
 import com.example.b_feature_impl.viewmodel.BFeatureViewModel
 import com.example.common_api.lce.LceViewState
-import givemesomecoffee.ru.test_interactor_api.model.TestInteractorDto
+import givemesomecoffee.ru.test_interactor_api1.model.TestInteractorDto
 
 class BFeatureFragment : Fragment() {
 

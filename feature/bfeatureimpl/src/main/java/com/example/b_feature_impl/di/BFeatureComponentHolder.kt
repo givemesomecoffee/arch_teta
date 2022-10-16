@@ -4,7 +4,7 @@ import com.example.modulinjection.BaseFeatureAPI
 import com.example.modulinjection.BaseFeatureDependencies
 import com.example.modulinjection.ComponentHolder
 import com.example.modulinjection.ComponentHolderDelegate
-import givemesomecoffee.ru.test_interactor_api.api.TestInteractorApi
+import givemesomecoffee.ru.test_interactor_api1.api.TestInteractorApi
 
 object BFeatureComponentHolder :
     ComponentHolder<BFeatureApi, BFeatureDependencies> {

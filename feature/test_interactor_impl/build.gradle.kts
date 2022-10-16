@@ -12,7 +12,7 @@ android{
 initLibDependencies()
 
 dependencies {
-    implementation(project(":feature:test_interactor_api"))
-    implementation(project(":feature:test_repository_api"))
+    implementation(project(":feature:test_interactor_api1"))
+    implementation(project(":feature:test_repository_api1"))
     implementation(project(":core:modulinjection"))
 }

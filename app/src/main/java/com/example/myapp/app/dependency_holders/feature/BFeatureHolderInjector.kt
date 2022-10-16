@@ -7,7 +7,7 @@ import com.example.modulinjection.BaseFeatureDependencies
 import com.example.modulinjection.DependencyHolder2
 import com.example.myapp.di.AppComponentHolder
 import com.example.myapp.di.AppFeatureApi
-import givemesomecoffee.ru.test_interactor_api.api.TestInteractorApi
+import givemesomecoffee.ru.test_interactor_api1.api.TestInteractorApi
 import givemesomecoffee.ru.test_interactor_impl.di.TestInteractorFeatureApi
 import givemesomecoffee.ru.test_interactor_impl.di.TestInteractorFeatureComponentHolder
 
